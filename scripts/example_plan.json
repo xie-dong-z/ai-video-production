@@ -1,0 +1,36 @@
+{
+  "project_id": "offline-example",
+  "purpose": "example-only-not-generation-authorization",
+  "budget_cny": 6,
+  "known_extra_cost_cny": 0,
+  "premium_models_allowed": [],
+  "clips": [
+    {
+      "id": "street",
+      "model": "lec-minimax-h3-768p",
+      "seconds": 12,
+      "resolution": "768P",
+      "max_attempts": 2,
+      "prompt": "镜头1｜平视中景固定。成年朋友站在路灯下看向画外，轻声说：“明天见。”说完自然落稳。",
+      "dialogues": [
+        {
+          "speaker": "朋友",
+          "text": "明天见。"
+        }
+      ],
+      "references": [],
+      "visible_text": []
+    },
+    {
+      "id": "room",
+      "model": "lec-minimax-h3-768p",
+      "seconds": 8,
+      "resolution": "768P",
+      "max_attempts": 2,
+      "prompt": "镜头1｜桌侧中近景。成年主角坐在安静房间里，视线从桌面抬向窗外，随后保持自然呼吸。",
+      "dialogues": [],
+      "references": [],
+      "visible_text": []
+    }
+  ]
+}

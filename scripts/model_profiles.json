@@ -1,0 +1,114 @@
+{
+  "snapshot_date": "2026-10-03",
+  "source": "https://simplefuture.zone/api/pricing",
+  "currency": "CNY",
+  "scope": "保守规划快照，正式调用前更新项目报价和能力；通过不代表素材传输或新生成已验证",
+  "models": {
+    "zj-MiniMax-H3": {
+      "family": "H3",
+      "unit": "second",
+      "price_cny": 0.1,
+      "min_seconds": 4,
+      "max_seconds": 15,
+      "resolution_ratios": {
+        "768P": 1
+      },
+      "planning_reference_limits": {
+        "image": 9,
+        "video": 3,
+        "audio": 3
+      },
+      "max_total_refs": 12,
+      "limit_source": "原厂安全规划范围；代理的完整媒体映射待首任务验证",
+      "frame_reference_policy": "native_mutually_exclusive",
+      "max_prompt_characters": 7000
+    },
+    "lec-minimax-h3-768p": {
+      "family": "H3",
+      "unit": "request",
+      "price_cny": 1.5,
+      "min_seconds": 4,
+      "max_seconds": 15,
+      "advertised_min_seconds": 1,
+      "resolution_ratios": {
+        "768P": 1
+      },
+      "planning_reference_limits": {
+        "image": 9,
+        "video": null,
+        "audio": 3
+      },
+      "max_total_refs": 12,
+      "frame_reference_policy": "native_mutually_exclusive",
+      "max_prompt_characters": 7000
+    },
+    "lec-md-seedance-2-0-900-720p": {
+      "family": "Seedance2.0",
+      "unit": "request",
+      "price_cny": 2,
+      "seconds_options": [
+        5,
+        10,
+        15
+      ],
+      "resolution_ratios": {
+        "720P": 1
+      },
+      "planning_reference_limits": {
+        "image": 9,
+        "video": null,
+        "audio": null
+      }
+    },
+    "lec-seed-2-0-900": {
+      "family": "Seedance2.0",
+      "unit": "request",
+      "price_cny": 3,
+      "seconds_options": [
+        15
+      ],
+      "resolution_ratios": {
+        "provider_default": 1
+      },
+      "planning_reference_limits": {
+        "image": 9,
+        "video": null,
+        "audio": null
+      }
+    },
+    "seedance2.5-特惠高通九图": {
+      "family": "Seedance2.5",
+      "unit": "request",
+      "price_cny": 2.99,
+      "seconds_options": [
+        30
+      ],
+      "resolution_ratios": {
+        "provider_default": 1
+      },
+      "planning_reference_limits": {
+        "image": 9,
+        "video": null,
+        "audio": null
+      },
+      "limit_source": "平台代理视频文档明确固定30；当前分辨率仍应以任务返回核对"
+    },
+    "lec-vg-seedance-2-5-wd": {
+      "family": "Seedance2.5",
+      "unit": "second",
+      "price_cny": 0.99,
+      "min_seconds": 4,
+      "max_seconds": 30,
+      "premium": true,
+      "resolution_ratios": {
+        "720P": 1
+      },
+      "planning_reference_limits": {
+        "image": 30,
+        "video": 10,
+        "audio": 10
+      },
+      "limit_source": "平台公示，具体请求适配未实测"
+    }
+  }
+}

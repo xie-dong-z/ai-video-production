@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI视频制作工作流"
+  short_description: "制作并验收人物与视频参考，检查连续性和节拍，按预算生成镜头并剪辑交付"
+  default_prompt: "使用 $ai-video-production，按我的任务、素材和预算制作并验收参考图，完成所需视频阶段与交付。"
+policy:
+  allow_implicit_invocation: true
